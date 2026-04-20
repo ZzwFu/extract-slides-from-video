@@ -1,0 +1,9 @@
+{
+  "command": "/extract-slides-from-video",
+  "description": "Extract a slides PDF with a mandatory cover page from a YouTube video via youtube-slides-mvp. Usage: /extract-slides-from-video <url>",
+  "handler": "skills/extract-slides-from-video/handler.py",
+  "public": true,
+  "examples": [
+    "/extract-slides-from-video https://youtu.be/qrsYr-g95no"
+  ]
+}
